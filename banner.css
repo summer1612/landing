@@ -1,0 +1,35 @@
+
+.banner {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('fond.jpg');
+    background-size: cover;
+    background-position: center; 
+    z-index: 1;
+}
+
+.banner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+.container h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.container h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
